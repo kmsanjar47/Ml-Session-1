@@ -1,0 +1,43 @@
+1. Social Links: https://linktr.ee/kmsanjar47
+2. Dataset Link: https://github.com/rashakil-ds/Public-Datasets/blob/main/Bank%20Data.csv
+
+
+1. Pandas
+    - Create DataFrame & Manipulation
+    
+2. Numpy
+
+ML Model train
+
+
+1. Data Explore
+
+
+
+2. Initial Observations:
+    - No of Feature 
+    - Name of Class
+    - Imbalance or not -- Sampling (Oversampling, undersampling)
+    - Visualizations(seaborne, matplotlib)
+
+
+   
+3. Data Preprocessing(Feature Engineering) 
+        - Null Handling
+        - Encoding
+        - Scaling
+        - Extra
+        - Correlation Check
+
+
+
+Payment of min amount - 29% No & 71% Yes (Class Imbalance)
+
+There isn't a strict rule or universally agreed-upon threshold for what constitutes an imbalanced dataset. It's often context-dependent and can vary based on the specific problem, the nature of the data, and the goals of the analysis or model.  
+  
+However, a commonly used heuristic is the $80-20$ rule, where a dataset is considered imbalanced if the class distribution is roughly $80 \%$ to $20 \%$ or worse. In this case, the majority class would have around $80 \%$ of the samples and the minority class around $20 \%$.  
+  
+That being said, what's considered imbalanced can vary widely. In some cases, a class distribution of $60-40$ might be considered imbalanced, especially if the minority class is critical or costly to misclassify. In other cases, a distribution of 90-10 might be considered balanced, especially if the classes are naturally imbalanced in the real-world scenario to which the model will be applied.  
+  
+Ultimately, it's important to consider the specific domain, the implications of misclassifications, and the goals of the analysis when determining whether a dataset is imbalanced. Additionally, the choice of threshold might be influenced by practical considerations and domain expertise.
+
